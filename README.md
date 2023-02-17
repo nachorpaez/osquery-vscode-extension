@@ -5,7 +5,7 @@ Use Osquery to gather data about the installed VSCode extensions on a host.
 ## Usage
 For testing, you can load the extension with `osqueryi`.
 
-By default, osquery does not want to load extensions not owned by root. You can either change the ownership of crowdstrike.ext to root, or run osquery with the `--allow_unsafe` flag.
+By default, osquery does not want to load extensions not owned by root. You can either change the ownership of vscode_extensions.ext to root, or run osquery with the `--allow_unsafe` flag.
 
 ```bash
 osqueryi --extension /path/to/vscode_extensions.ext
